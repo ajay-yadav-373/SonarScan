@@ -18,3 +18,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+  
+      - name: Sonar Build Breaker
+        uses: jkumar19/sonar-build-breaker@v1.0.0
+        with:
+          sonar_url: "https://sonarcloud.io"
+          sonar_branch: "main"
+          sonar_token: ${{ secrets.SONAR_TOKEN }}
+          project_key: "ajay-yadav-373_SonarScan"
