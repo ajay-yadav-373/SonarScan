@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <properties>
-  <sonar.organization>ajayyadav</sonar.organization>
+  <sonar.organization>ajay-yadav-373</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
 
